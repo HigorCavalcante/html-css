@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Caixas</title>
+</head>
+<style>
+    h1{ /*box-level*/
+        background: white;
+        height: 300px;
+        width: 300px;
+
+        border: 35px  solid darkgreen;
+
+        padding: 10px;
+
+        margin: 30px auto 30px auto;
+
+        outline: 20px groove limegreen;
+    }
+     a{ /*Inline-level  */
+
+        border-color: black;
+        border: 5px 0px 0px 0px  ;
+        padding: 1px;
+    }
+    div{
+        height: fit-content;
+        width: fit-content;    
+        border-color:blue;
+        padding: 10px;
+        border: 30px groove #5e5858;
+        border-radius: 10px;
+        background: #dfd9d9;
+        margin: auto;    }
+
+</style>
+<body>
+    <h1>Exmplos de caixas <br> box-level</h1>
+    <p>Paragrafos também são exemplos de box-level, mais os
+    <a href="br.com">links são como exmplos de inline-level </a>
+    vamos ver como isso funciona </p>
+    <div>botão </div>
+   
+</body>
+</html>

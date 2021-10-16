@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background: slateblue; 
+        }
+        h1,p{
+        border: 10px solid #4737a9;;
+        border-radius: 10px 40px 20px 20px;
+        margin: 20px;
+        padding: 10px;
+        width: fit-content;
+        background: white;
+        box-shadow: 0px 5px #4737a9;
+        }
+        video,iframe{
+        border: 10px solid #4737a9;
+        border-radius: 10px 40px 40px 10px;
+        margin: 10px;
+        padding: 10px;
+        background: white;
+        }
+        .div1{
+        background: #f5f5f5cc;
+        position: absolute;
+        top: 0%;
+        left: 20%;
+        box-shadow: 0px 0px 0px 20px #4737a9 ;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>Inserindo videos hospedados localmente </h1>
+        
+        <p>Este video está hospedado no meu proprio servidor.</p>
+        
+        <video width="560" height="315" poster="img/limoes-capa.png" autoplay controls>
+            <source  src="midia/meu-video.m4v" type="video/m4v">
+            <source src="midia/meu-video.mp4" type="video/mp4">
+            <p>Casou não tenha pegado mil desculpas meu caro amigo.</p>
+        </video>
+    
+    
+        <h1>Iserindo videos  do You Tuber</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>

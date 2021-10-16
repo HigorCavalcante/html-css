@@ -1,0 +1,42 @@
+@charset "Utf";
+body
+{
+  background: #D0D6B3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+h1{
+  color: #046310e8 ;
+}
+h2{
+  color:  #0a6316af
+}
+#pincipal{
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background:#14281D ;
+  color: white;   
+}
+.caixaa{
+  padding: 5px;
+  border-radius: 10px;
+  background:#14281D ;
+  color: white;
+  width: fit-content;  
+}
+.basico{
+  color:#355834;
+}
+.intermediario{
+  color: #6E633D;
+}
+.avançado{
+color: #C2A878;
+}
+.caixa{
+  padding: 10px;
+  background: white;
+  border-radius: 20px;
+  width: fit-content;
+}

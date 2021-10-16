@@ -1,0 +1,63 @@
+body{
+    font-family: verdana;
+    background: darkgrey;
+    margin: 0%;
+    font-size: 16px;
+}
+/* Cabeçalho */
+header{
+    background: #635f5f;
+    margin: 0%;
+    padding: 10px 20px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+footer{
+    text-align: center;
+    background: #635f5f5d;
+    margin: 0%;
+    padding: 5px 20px 20px 20px;
+}
+main{
+    height:auto;
+    width: 60%;
+    background: white;
+    margin: 30px auto 30px auto;
+    border-radius: 0px;
+    padding: 10px;
+    box-shadow: 1px 1px 9px 0px;
+}
+footer > p{
+    text-decoration: underline;
+}
+
+/* CABEÇALHO */
+/* ESTILO */
+a.a{
+     text-decoration: none;
+     color: black;
+     padding: 5px;
+     background: white;
+     border-radius: 10px;
+     font-weight: bold;
+     }
+a.a:hover{
+    color:#1a56c5f3;
+     text-decoration: underline;
+     background: #ffffff69;
+    }
+article{
+        background: #635f5f69;
+        padding: 10px;
+        
+        margin: 20px;
+        text-indent: 20px;
+    }
+ article > aside > p{
+    font-weight: bold;
+    padding: 5px;
+     display: inline;
+     background: #9c9494;
+     text-decoration: underline;
+     }
+ 
+/* ESTILO */

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+    
+    <style>
+        body{
+            color: white;
+            background: #2e2b2b98 ;
+            margin: 10px;
+        }
+
+        h1{text-shadow: 2px 2px #000000;}
+        h2{text-shadow: 2px 2px #0e0d0d;}
+        
+        .h2{
+            white-space: nowrap;
+            border:10px solid #2e2b2b;
+            border-radius:  5px;
+            height: 34px;
+            width: 154px;
+            color: white;
+            background:#2e2b2b ;
+            text-shadow: 2px 2px #2e2b2b;
+        }
+        .pai{  
+            padding: 10px;
+            margin: 20px;
+            height: 100%;
+            width: 95%;
+        }
+        .code {
+            padding: 10px;
+            white-space: nowrap;
+            border: 10px solid #2e2b2b;
+            border-radius: 10px;
+            width: 50%;
+            height: 10%;/*altura*/
+            background: #2e2b2b98;  
+        }
+        pre{
+            padding: 10px;
+            width: 50%;
+            background:#2e2b2b98 ;
+            border: 10px solid #2e2b2b;
+            border-radius: 10px;
+        }
+        .q{
+            padding: 10px;
+            white-space: nowrap;
+            border: 10px solid #2e2b2b;
+            border-radius: 10px;
+            width: 50%;
+            height: 10%;/*altura*/
+            background: #2e2b2b98;  
+        }
+        .abbr{
+            padding: 10px;
+            margin-top: 10px ;
+            white-space: nowrap;
+            border: 10px solid #2e2b2b;
+            border-radius: 10px;
+            width: 50%;
+            height: 10%;/*altura*/
+            background: #2e2b2b98;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="pai">
+        <h1>Outras formatações</h1>
+        <h2 class="h2">Código-fonte</h2>
+        
+    <div class="code">
+        <p >O comando <code>document.getElementByid('teste')</code> é escrito em linguagem Javascript. </p>
+    </div>
+        
+        <!--A tag (<code>) tem a função de deixa o tamhanho igual para todas as letras, ficando com o mesmo tamanho.-->
+            <!--A tag (<pre>) tem a função de colocar a identação que não é colocada  no editor-->
+        
+        
+    <pre ><!--Exemplo de pre-->
+            <code><!--Exemplo de code-->
+    num = int(imput ('digite um número'))
+    if num % 2 ==0:
+        print(F 'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+            </code>
+    </pre>
+
+            <!--A tag (<q>) tem a função especifa para  coloca as ("") para dar sentido em um citação -->
+    <div class="q">
+        <h2>Citações</h2>
+        <p>Como diria um pai de um amigo:<q> O computador é um burro muito rapido</q></p>
+        <h2>Citações completas</h2>
+        <p>segundo Jeff Nobe, no seu livro html para leigos</p>
+            <!--A tag (blockquote) é um citação de bloco mais logo mostrando que o treicho  a seguir é uma citação para o navegador e visualmente -->
+        
+            <!--A tag (<blockquote cite="" >) tem a função de mostra somente para o navegado por um link  o criador da citação a seguir-->
+        <blockquote cite="link">
+            As diferença entre elementos inline e um bloco de texto é importante. <br>Os elementos HTML deste capitulo descrevem os blocos de texto 
+        </blockquote>
+    </div>
+    
+    <div class="abbr">
+         <!--A tag (abbr) tem a função de mostra em um abreviação a sua palavra origia visualmente-->
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="Hypertext Markup Lenguege">HTML</abbr>  <abbr title="Cascading Style Sheets">CSS</abbr> estou adorando!</p>
+        <!--A tag (bdo) tem a função de inverte as palavras-->
+       
+        <h2>Testo invertido</h2>
+        <p><bdo dir="ltr"> Estou aprendendo a criar coisas em html.</bdo></p>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+            #  = ID 
+            .  = CLASS
+            :  = PESEUDO CLASS 
+            :: = PSEUDO -ELEMENT
+            >  = CLILDREN
+               
+        
+        
+        */
+        body{
+            font-family: verdana;
+            background: #302d2dc2;
+        }
+        div{
+            margin-top: 20px;
+            margin-left: 20px  ;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+            width: fit-content;
+            box-shadow: 1px 0px 15px 2px  black ; 
+        }
+        a{
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: rgb(32, 32, 250);
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(121, 121, 240);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {color: rgb(185, 172, 172);
+        }
+        a::before{
+            content: 'link';
+            color: slategrey;
+            font-weight: bold;
+        }
+        a::after{
+            content:'link';
+            color: slategrey;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Lista de likes</h1>
+        <ul>
+            <li><a href="https://gustavoguanabara.ghithub.io" target="-blank">Repositorio Ghithub</a></li>
+            <li><a href="https://youtuber.com/cursoemvideo/" target="-blank">Canal do You tuber</a></li>
+            <li><a href="https://www.cursoemviodeo.com" target="-blank">Site do Curso em video</a></li>
+        </ul>
+    </div>
+</body>
+</html>

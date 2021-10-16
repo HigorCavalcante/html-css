@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Texto</title>
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <style>
+        body{
+            background: #FF8811;
+        }
+        em{/*Semantico */
+            padding: 2px;
+            border-radius: 10px;
+            background: rgb(126, 122, 122);
+           color: rgba(237, 237, 241, 0.603) ;
+        }
+        i{/*Não sematico*/
+            padding: 2px;
+            border-radius: 10px;
+            color: white;
+            background: black;
+        }
+        .top{
+            padding: 20px;
+            border-radius:20px ;
+            background: white;
+            height: 70%;
+            width: 50%;
+        }
+        mark{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="top">
+
+        <!-- LEBRANDO!!, QUE, OS N SEMATICOS FICAM NO CSS! E, OS SEMATICOS FICAM NO HTML, USANDO UMA TAG 
+            N SEMATICA NO HTML SEM A TAG STYLE É! ERRADO!!-->
+
+        <h1>Principais formatações</h1>
+        
+        <h2>Negrito / destaque</h2>
+        
+        <!--LEMBANDO QUE A TAG (B) NÃO É SEMATICA, MAIS A TAG (STRONG) É SEMATICA E FAZEM AS MESMA COIAS-->
+        <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (Não semâtica).</p>
+        
+        <p>Nessa frase temos um <strong>termo em destaque</strong>usando a tag strong (Com semâtica).</p>
+          <!--=================================================-->  
+        <h2>Italico/ Ênfase</h2>
+        
+        <!--LEMBANDO QUE A TAG (I) NÃO É SEMATICA, MAIS A TAG (EM) É SEMATICA E FAZEM AS MESMA COIAS-->
+        <p>Nesta frase, temos um <i>termo em italico</i> usando a tag I (não sematico)</p>
+        
+        <P>Nesta frase, temos um <em>termo em Ênfase</em> usando a tag Eh (Com sêmatica)</P>
+        <!--=================================================-->
+        <h2>Podemos cria também <mark>um texto marcado</mark> com a tag <em>mark</em>.</h2>
+
+        <p>E no outro paragrafo, temos <mark style="background-color: grenn;">outro texto marcado</mark> no final. </p>
+        
+        <h2>Texto grande e pequeno</h2>
+
+        <p>Estamos criando um <b>testo grande</b> e um <small>texto pequeno</small>.</p>
+
+        <h2>Texto deletado </h2>
+
+        <p> Podemos marca um <del>texto como excluido</del>  para indica que ele deve ser lido, mas não considerado.</p>
+
+        <h2>Texto inserido </h2>
+
+        <!--LEMBANDO QUE A TAG U NÃO É SEMATICA, MAIS A TAG INS É SEMATICA E FAZEM AS MESMA COIAS-->
+        <p>Podemos marca <ins>um texto como inserido</ins> para dar ênfase e indica que ele foi adicionador  depois.</p>
+
+        <p>Existe também o <U>sublinhado</U> com a tag U (NÃO! semâtica)</p>
+          <!--=================================================-->
+        <h2>Texto sobrecrito</h2>
+
+        <p>Para inseri coisas do tipo x<sup>20</sup>+3</p>
+
+        <h2>Tesxto subiscrito</h2>
+
+        <p>Para inseri coisas do tio H<sub>20</sub></p>
+
+    </div>
+
+</body>
+</html>

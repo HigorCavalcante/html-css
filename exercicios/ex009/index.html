@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background: #9e9e9e40;
+            margin: 10px;
+        }
+        h1{
+            padding: 5px;
+            width: fit-content;
+           
+            border-radius: 10px;
+            background: white;
+        }
+        h2{
+            padding: 5px;
+            width: fit-content;
+            height: 8%;
+             
+            border-radius: 10px;
+            background: white;   
+         }
+         .ol{
+            white-space: nowrap;
+            padding: 5px;
+            width: fit-content;
+            height: 8%;
+            
+            border-radius: 10px;
+            background: white;
+         }
+         .ul{
+            white-space: nowrap;
+            padding: 5px;
+            width: fit-content;
+            height: 8%;
+            
+            border-radius: 10px;
+            background: white;
+         }
+         .tela{
+             position: absolute;
+             padding: 10px;
+             left: 30%;
+             width: fit-content;
+             background-color: #e65118;
+             border-radius: 19px;
+         }
+    </style>
+</head>
+<body>
+    <div class="tela">
+        <h1>Trabalhando com listas</h1>
+        <h2>Listas ordenadas</h2>
+            <!--A tag (ol) tem a função de cria uma lista ordenada-->
+            <!--Que  tem 5 tipos   (<ol type="1">) diferentes de listas visualmete-->
+        <div class="ol">
+            <ol type="1" >      <!--O usando o       (type="1") dentro de (ol) listas nunerica o (A) lista escrita o (a) lista escrita  minusclo  (I) listra grega (i)lista grega minuscula-->
+                <!--A tag detro de (ol) ( start="2">) tem a função de mostra na onde a lista deve começar -->
+                <!-- A tag (li) tem a função de mostra o que deve se considerado lista-->
+                <li>acorda</li>
+                <li>Ligar para o jão</li>
+                <li>Tomar cafê</li>
+                <li>Escova os dentes</li>
+                <li>Ir pra faculdade</li>
+                <li>Almoçar</li>
+                <li>Ir para o trabalho </li>
+                <li>Volta para casa</li>
+                <li>Jantar</li>
+                <li>Dormir</li>
+            </ol>
+        </div>
+        <h2>Listas não ordenadas</h2>
+        <!--  A tag ul é uma lista também, pórem não ordenada-->
+        <div class="ul">
+            <ul type="square"> <!-- Seus diferentes tipos detro de (ul)são (type)disc, squere, circle-->
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Tomate</li>
+                <li>Alface</li>
+                <li>Manteiga</li>
+                <li>Arroz</li>
+                <li>Feijão</li>
+            </ul>
+        </div>
+        <h2>Minhas lenguagem favoritas</h2>
+        <div class="ul">
+            <ol>
+                <li>Antigas</li>
+                    <ul>
+                        <li>Clipper</li>
+                        <li>Visual Basic</li>
+                        <li>Fortran</li>
+                        <li>Delphi</li>
+                    </ul>
+                <li>Novas</li>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Kotlin</li>
+                    </ul>
+            </ol>
+        </div>
+        <h2>Meus jogos favoritos </h2>
+        <div class="ol">
+            <ol type="1">
+                <li>NES
+                    <ul type="square">
+                        <li>Mario bros</li>
+                            <ul type="disc">
+                                <li>Mario: Bros3</li>
+                                <li>mario: Lost Level</li>
+                            </ul>
+                        <li>Ninja Gaiden</li>
+                    </ul>
+                </li>
+                <li>SNES
+                    <ul type="squere">
+                        <li>Mario</li>
+                        <li>Dorkey Kong</li>
+                    </ul>
+                </li>
+                <li>Playstation
+                    <ul>
+                        <li>Fibal Fantasy</li>
+                        <li>Castlevania</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <h2>Lista de Definições</h2>
+        <div class="ol">
+            <!---->
+            <dl>
+                <dt>HTML
+                    <dd>lenguagem de marcação dpara criação de conteudo de um site.</dd>
+                </dt>
+                <dt>CSS
+                    <dd>Linguagem de marção para criação de design de um site.</dd>
+                </dt>
+                <dt>JavaScript
+                    <dd>Lenguagem de marcação para criação de interatividade de um site.</dd>
+                </dt>
+            </dl>
+        </div>
+    </div>
+</body>
+</html>
